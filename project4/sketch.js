@@ -2,7 +2,6 @@ function setup() {
   createCanvas(300, 200);
   frameRate(58);
   
-  saveGif('20252910 과제제출4', 10);
 }
 
 function draw() {
