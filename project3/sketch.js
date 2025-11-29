@@ -88,8 +88,5 @@ function draw() {
   strokeWeight(3);
   ellipse(160, 320, 40, 80); 
   ellipse(440, 320, 40, 80); 
-  if (frameCount === 1) {
-    
-    saveGif('20252910-3', 9);
-  }
+
 }
