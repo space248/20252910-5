@@ -54,20 +54,6 @@ function setup() {
 
   noLoop();
 
-  
-  let snap = get(); 
-  let pg = createGraphics(600, 400);
-  pg.pixelDensity(1);
-  pg.background(0, 250, 0);
-
-
-  let targetW = 400;
-  let targetH = 400;
-  let offsetX = (600 - targetW) / 2; 
-  pg.image(snap, offsetX, 0, targetW, targetH);
-
-  pg.save('20252910-2.png');
-  pg.remove();
 }
 
 function draw() {}
